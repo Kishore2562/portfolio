@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satya Kishore Gonnabattula - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#notes">Notes App</a></li>
+            <li><a href="#products">Explore</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <img src="https://raw.githubusercontent.com/Kishore2562/Freshcoder/main/kishoreg.jpg" alt="Satya Kishore">
+            <h2>Satya Kishore Gonnabattula</h2>
+            <p>A driven MCA student at Adikavi Nannaya University, Kakinada, with a passion for crafting innovative software solutions. Proficient in Python, Java, C++, and web technologies, I specialize in building scalable applications. My goal is to contribute to cutting-edge projects in dynamic, tech-forward environments.</p>
+            <p><strong>Technical Skills:</strong> Python, Java, C++, HTML, CSS, JavaScript, MySQL, AWS (Elastic Beanstalk), Git, VS Code</p>
+            <p><strong>Languages:</strong> Telugu, Hindi, English</p>
+            <p><strong>Interests:</strong> Drawing, Music, Video Editing</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projects & Certifications</h1>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Online Ticketing System</h3>
+                <p><strong>Technologies:</strong> Python, MySQL, HTML, CSS</p>
+                <p>Engineered a web-based platform for ticket booking with real-time seat availability, secure user authentication, and a MySQL backend optimized for seamless transactions.</p>
+            </div>
+            <div class="project-card">
+                <h3>AWS APAC Solutions Architecture</h3>
+                <p><strong>Forage - May 2025</strong></p>
+                <p>Architected a scalable hosting solution using AWS Elastic Beanstalk, delivering client-friendly explanations of cloud design and cost structures.</p>
+            </div>
+            <div class="project-card">
+                <h3>Tata Cybersecurity Analyst Simulation</h3>
+                <p><strong>Forage - May 2025</strong></p>
+                <p>Simulated IAM scenarios, applied best practices, and produced clear, structured technical documentation aligned with compliance requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="notes">
+        <h1>Interactive Note-Taking App</h1>
+        <div class="note-app">
+            <input type="text" id="note-title" placeholder="Note Title">
+            <textarea id="note-content" placeholder="Capture your thoughts..." rows="5"></textarea>
+            <button onclick="addNote()">Add Note</button>
+            <div class="note-list" id="note-list"></div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h1>Explore Products</h1>
+        <div class="product-controls">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="sports">Sports</option>
+            </select>
+            <select id="sort-option">
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="price-asc">Price (Low-High)</option>
+                <option value="price-desc">Price (High-Low)</option>
+                <option value="rating-desc">Rating (High-Low)</option>
+            </select>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section id="contact">
+        <h1>Get in Touch</h1>
+        <div class="contact-content">
+            <p><strong>Email:</strong> <a href="mailto:gonnabattula.kishore@gmail.com">gonnabattula.kishore@gmail.com</a></p>
+            <p><strong>Phone:</strong> +91-8096757241</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/satya-kishore-gonnabattula-010738239" target="_blank">LinkedIn Profile</a></p>
+            <p><strong>Location:</strong> Kakinada, Andhra Pradesh, India</p>
+        </div>
+    </section>
+
+    <script src="task4.js"></script>
+</body>
+</html>
