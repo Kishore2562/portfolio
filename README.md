@@ -1,1 +1,7 @@
 # portfolio
+
+As part of your ApexPlanet internship, Task 4 involves creating a portfolio website for Satya Kishore Gonnabattula, showcasing your skills as an MCA student. The site, built with HTML, CSS, and JavaScript, features a cinematic, Nolan-inspired dark theme with green accents. It includes an "About" section with your GitHub-hosted profile image, a "Projects" section highlighting academic and certification work, an interactive note-taking app using local storage, a "Products" page for filtering and sorting items like laptops and cricket kits (priced in ₹), and a "Contact" section. The portfolio is fully responsive, with smooth animations like fade-ins, slide-ins, and hover effects, demonstrating your technical expertise and creativity in web development.
+Technologies: HTML structures the site, CSS styles it with a cinematic flair, JavaScript adds interactivity, and Google Fonts enhances typography.
+Profile Image Animations: Features a 360-degree rotation on hover and a slide-in effect with its container, creating a dynamic reveal.
+Portfolio: A professional showcase of your skills with a Nolan-inspired design, interactive features, and responsive layout.
+Unsplash: Provides placeholder images for backgrounds and products, ensuring a visually appealing site until you add custom images.
